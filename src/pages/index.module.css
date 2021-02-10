@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  
+  
+  
+  .contain_div {
+    width: 100%;
+    text-align: center;
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .TextInput {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  
+  .contactList {
+    margin-top: 5vh;
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(235, 197, 235, 0.884);
+    color: black;
+    border-bottom: 1px solid #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin: 5vh;
+  }
+  
+  .Icon {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .Icon:hover {
+    color: #ff6123;
+  }
+
+  .main {
+    color: rgb(170, 10, 170);
+    font-family: serif;
+    font-style: italic;
+    margin-top: 10vh;
+  }

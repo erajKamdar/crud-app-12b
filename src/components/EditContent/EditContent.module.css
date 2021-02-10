@@ -1,0 +1,32 @@
+.main_div {
+    position: absolute;
+    top: 14rem;
+    left: 30%;
+    right: 30%;
+    bottom: 14rem;
+    padding: 27px 122px;
+}
+
+.from_div {
+    background-color: #fff8f8;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 13rem;
+    padding: 20px;
+
+}
+
+  @media (min-width: 320px) and (max-width: 767px) {
+.main_div {
+    position: absolute;
+    top: 14rem;
+    left:  -23%;
+    right: 0%;
+    bottom: 14rem;
+    padding: -18px 95px;
+    width: 88%;
+}
+  
+  }

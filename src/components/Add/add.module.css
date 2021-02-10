@@ -1,0 +1,42 @@
+.input_div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 26px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn_div {
+    display: flex;
+    justify-content: center;
+} 
+
+.TextInput {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+
+  }
+  
+  
+  h3 {
+    text-align: center;
+    margin: 5vh;
+  }
+  
+  .Icon {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .Icon:hover {
+    color: #23ff98;
+  }
+
